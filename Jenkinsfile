@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "raj0pro/frontend"
+        IMAGE_NAME = "akshu20791/frontend"
         IMAGE_TAG = "v1.0.${BUILD_NUMBER}"
         APP_NAME = "frontend"
 
@@ -47,7 +47,7 @@ pipeline {
                     sh '''
                     rm -rf k8s-config
 
-                    git clone https://${GIT_TOKEN}@github.com/Raj-pro/k8s-config.git
+                    git clone https://${GIT_TOKEN}@github.com/letslearn207/k8s-config
 
                     cd k8s-config
 
