@@ -79,7 +79,7 @@ pipeline {
                     argocd app sync $APP_NAME \
                         --auth-token $ARGOCD_TOKEN \
                         --server $ARGOCD_SERVER \
-                        --insecure
+                        --insecure \
                         --prune
 
                     argocd app wait $APP_NAME \
