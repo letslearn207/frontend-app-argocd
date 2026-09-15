@@ -80,6 +80,7 @@ pipeline {
                         --auth-token $ARGOCD_TOKEN \
                         --server $ARGOCD_SERVER \
                         --insecure
+                        --prune
 
                     argocd app wait $APP_NAME \
                         --auth-token $ARGOCD_TOKEN \
