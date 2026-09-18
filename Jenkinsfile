@@ -7,7 +7,8 @@ pipeline {
         APP_NAME = "frontend"
 
         // Replace with your actual ArgoCD server
-        ARGOCD_SERVER = "a18d4600cb2074f30a47cf7cc8440ccf-142765116.ap-southeast-2.elb.amazonaws.com:443"
+       // ARGOCD_SERVER = "a18d4600cb2074f30a47cf7cc8440ccf-142765116.ap-southeast-2.elb.amazonaws.com:443"
+          ARGOCD_SERVER = "aab1b77c88825402684903aad32f689d-1391221372.us-east-2.elb.amazonaws.com:443"
     }
 
     stages {
