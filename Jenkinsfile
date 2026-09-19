@@ -71,7 +71,7 @@ pipeline {
             steps {
                 withCredentials([
                     string(
-                        credentialsId: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhcmdvY2QiLCJzdWIiOiJhZG1pbjphcGlLZXkiLCJuYmYiOjE3ODk4MDA5NjgsImlhdCI6MTc4OTgwMDk2OCwianRpIjoiMTEzZDFlYzgtMDgwZi00Y2U5LWE2YTctMGU0NWVhMzEzMzdhIn0.OmW1EeKUpXaqgw8taU8XML9mj0w8IymKE3NM5lbGlbA',
+                        credentialsId: 'argocd-token',
                         variable: 'ARGOCD_TOKEN'
                     )
                 ]) {
