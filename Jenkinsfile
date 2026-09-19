@@ -8,7 +8,7 @@ pipeline {
 
         // Replace with your actual ArgoCD server
        // ARGOCD_SERVER = "a18d4600cb2074f30a47cf7cc8440ccf-142765116.ap-southeast-2.elb.amazonaws.com:443"
-          ARGOCD_SERVER = "aab1b77c88825402684903aad32f689d-1391221372.us-east-2.elb.amazonaws.com:443"
+          ARGOCD_SERVER = "ab79869818bbc49e887caad128fdcfdb-2008181742.us-east-1.elb.amazonaws.com:443"
     }
 
     stages {
